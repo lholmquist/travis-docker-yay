@@ -4,4 +4,4 @@ install:
 language: node_js
 node_js: "0.10"
 
-scripts: ./bootstrap.sh
+script: ./bootstrap.sh
