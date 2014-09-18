@@ -1,1 +1,7 @@
-install: sudo curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+install:
+    - sudo curl -sSL https://get.docker.io/ubuntu/ | sudo sh
+
+language: node_js
+node_js: "0.10"
+
+scripts: ./bootstrap.sh
